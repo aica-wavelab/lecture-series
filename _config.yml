@@ -16,11 +16,11 @@
 title: "AICA lecture series"
 logo: "/assets/images/logos/aica_logo.png"
 favicon_ico: "/assets/images/favicon.ico"
-description: "Artificial Intelligence in Culture and Arts (AICA): Tools and tutorials for the tech crash course (Summer semester 2024)"
+description: "Artificial Intelligence in Culture and Arts (AICA): Lecture series (Summer semester 2024)"
 author: Téo Sanchez, Benedikt Zönnchen
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aica-wavelab.github.io/tech-crash-course" # the base hostname & protocol for your site, e.g. http://example.com
-repository: aica-wavelab/tech-crash-course # the repository hosting your site, e.g. owner/repo
+url: "https://aica-wavelab.github.io/lecture-series" # the base hostname & protocol for your site, e.g. http://example.com
+repository: aica-wavelab/lecture-series # the repository hosting your site, e.g. owner/repo
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 
@@ -117,9 +117,9 @@ aux_links_new_tab: false
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-# nav_external_links:
-#   - title: Just the Docs on GitHub
-#     url: https://github.com/just-the-docs/just-the-docs
+nav_external_links:
+  - title: To the zoom meeting
+    url: "https://zoom.us/j/1234567890?pwd=1234567890"
 
 # Footer content
 # appears at the bottom of every page's main content
