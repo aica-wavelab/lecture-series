@@ -1,0 +1,24 @@
+{%- if site.footer_content -%}
+  <div class="logo-container">
+    <footer>
+      <img src="{{ 'assets/images/logos/hm_logo.png' | relative_url }}" alt="Logo HM">
+      <img src="{{ 'assets/images/logos/mucdai_logo.jpg' | relative_url }}" alt="Logo MUC.DAI">
+      <img src="{{ 'assets/images/logos/hmtm_logo.png' | relative_url }}" alt="Logo HMTM">
+      <img src="{{ 'assets/images/logos/wavelab_logo.jpg' | relative_url }}" alt="Logo Wavelab">
+      <img src="{{ 'assets/images/logos/bidt_logo.png' | relative_url }}" alt="Logo BIDT">
+      <!-- ...other logos -->
+    </footer>
+  </div>
+{%- endif -%}
+
+<style>
+  .logo-container img {
+    filter: grayscale(100%);
+    width: 100px;
+    margin-right: 50px;
+  }
+
+  .logo-container img:last-child {
+    margin-right: 0;
+  }
+</style>

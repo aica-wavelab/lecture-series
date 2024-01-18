@@ -1,0 +1,9 @@
+.footer-logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* This rule removes the margin from the last logo to ensure consistent spacing */
+.footer-logo:last-child {
+    margin-right: 0;
+}
