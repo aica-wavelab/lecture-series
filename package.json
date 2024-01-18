@@ -43,5 +43,8 @@
     "singleQuote": false,
     "tabWidth": 2,
     "trailingComma": "es5"
+  },
+  "dependencies": {
+    "jekyll-discuss": "^1.0.0"
   }
 }
