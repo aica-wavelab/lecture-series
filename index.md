@@ -45,11 +45,11 @@ The AICA lecture series will be held on zoom, **every Wednesday from 17:00 to 18
 
 The lectures are organised in three blocs:
 
-1. Music: April-May
-2. Performing and visual arts: May-June
-3. Creative and cultural industries: June-July
+1. [AI in music](/program/#bloc-1-ai-in-music): April-May
+2. [AI in visual and performing arts](program/#bloc-2-ai-in-visual-and-performing-arts): May-June
+3. [AI in the cultural and creative industries](program/#bloc-3-ai-in-the-creative-and-cultural-industries): June-July
 
-Speakers will be announced soon but include artists, academics, curators, and companies.
+[The final list of speakers](speakers) will be announced soon but include artists, academics, curators, and companies.
 
 ## Pre-requisites
 

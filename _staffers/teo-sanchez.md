@@ -1,4 +1,5 @@
 ---
+layout : staffer
 name: Dr. Téo Sanchez (HM - MUC.DAI)
 role: Scientific instructor
 website: https://teo-sanchez.github.io/

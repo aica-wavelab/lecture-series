@@ -1,0 +1,14 @@
+---
+layout: speaker
+title: To be announced
+name: To be announced
+role: speaker
+website: 
+talk: Title of the talk to be announced
+talk_description: "Talk description is coming soon..."
+bloc: AI in cultural and creative industries
+talk_date: 2024-07-03 17:00 +0100
+replay: 
+---
+
+Coming soon...

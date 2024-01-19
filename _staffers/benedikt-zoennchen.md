@@ -1,4 +1,5 @@
 ---
+layout: staffer
 name: Dr. Benedikt Zönnchen (HM - MUC.DAI)
 role: Scientific instructor
 # email: benedikt.zoennchen [at] hm.edu

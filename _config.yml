@@ -183,6 +183,10 @@ kramdown:
 # Collections for website data
 collections:
   staffers:
+  speakers:
+    output: true
+    permalink: /speakers/:path/
+    sort_by: name
   modules:
   schedules:
   announcements:

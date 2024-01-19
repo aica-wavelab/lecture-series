@@ -1,0 +1,47 @@
+---
+layout: page
+---
+
+
+{%- assign speaker = page -%}
+
+<article class="staffer" style="width: 100%;">
+    <div style="width: 100%;">
+        <div style="display: grid; grid-template-columns: 3fr 1fr;">
+            <div>
+                <h1>
+                    {{speaker.academic_title}} {{ speaker.name }}
+                </h1>
+                {%- if speaker.affiliation -%}<h4>{{speaker.affiliation}}</h4>{%- endif -%}
+                <p> {{content}} </p>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div style="justify-content: center">
+                {%- if speaker.photo -%}
+                <img class="staffer-image" src="{{ site.baseurl }}/assets/images/{{ page.photo }}" alt="" style="max-width: 90%; height: 150px;">
+                {%- endif -%}
+                {%- if speaker.website -%}
+                <a href="{{ speaker.website }}" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style="display: flex; justify-content: center; align-items: center;">🌐 Speaker webpage</a>
+                {%- endif -%}
+                </div>
+            </div>
+        </div>
+    
+        <h2> {{speaker.talk}} </h2>
+        <!-- Clock format -->
+        On <b>{{speaker.talk_date | date: "%B %d, %Y"}}</b> at <b>{{speaker.talk_date | date: "%I:%M %p"}}</b> (UTC+1)
+        <p> {{speaker.talk_description}} </p>
+
+        {% if speaker.links %}
+        <h3>Useful links</h3>
+        <ul>
+        {%for link in speaker.links%}
+            <li><a href="{{link.url}}" target="_blank">{{link.name}}</a>
+        {%endfor%}
+        </ul>
+        {% endif %}
+    </div>
+</article>

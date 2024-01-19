@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<h1 class="display-5 mb-4">
+      {{ page.title }}
+  </h1>
+
+  <div class="speakerlist">
+    {% assign cur_letter = false %}
+    {% assign speakers = site.speakers | sort_natural: 'name' %}
+    {% for speaker in speakers %}
+
+
+    {% assign first_letter = speaker.name | strip_html | strip_newlines | strip | truncate: 1, '' %}
+      {% if cur_letter != first_letter %}
+        {% if cur_letter %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% assign cur_letter = first_letter %}
+        <div class="speakergroup">
+          <h3>{{ cur_letter }}</h3>
+          <ul class="list-unstyled">
+      {% endif %}
+
+      <li class="font-weight-light">
+        {% if speaker.hide %}
+          {{ speaker.name }}
+        {% else %}
+          <a href="{{ speaker.url | prepend: site.baseurl }}">
+            {{ speaker.name }}
+          </a>
+        {% endif %}
+      </li>
+
+    {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+<style>
+  .speakergroup {
+    page-break-inside: avoid;
+    break-inside:      avoid-column;
+  }
+
+  .speakerlist {
+    column-count: 1;
+  }
+
+  .speakerlist {
+    column-count: 2;
+  }
+
+
+  .speakerlist {
+    column-count: 3;
+  }
+
+</style>
