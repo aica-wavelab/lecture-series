@@ -1,10 +1,20 @@
-<form action="http://localhost:9000/hooks/add-comment">
+<form action="https://aica-comments-0fe806049a5c.herokuapp.com/add-comment" method="POST" enctype="application/json" style="width: 100%;">
     <input type="hidden" name="reply_to" value="{{ include.reply_to }}" />
-    <div style="clear: both; padding-top: .5em;">Name</div>
-    <input type="text" name="author" />
-    <div>E-mail</div>
-    <input type="email" name="email" />
-    <div>Comment</div>
-    <textarea name="text"></textarea>
+    <!-- Container for name and email to be in 2 columns -->
+    <div style="display: flex; justify-content: space-between;">
+        <div style="flex: 1; margin-right: 8px;"> <!-- Adjust margin as needed -->
+            <div style="clear: both;">Your full name</div>
+            <input type="text" name="author" style="width: 100%;" />
+        </div>
+        <div style="flex: 1;">
+            <div>Institutional email address (hm.edu or hmtm.de)</div>
+            <input type="email" name="email" style="width: 100%;" />
+        </div>
+    </div>
+    <!-- Full-width question textbox -->
+    <div style="clear: both; padding-top: .5em;">
+        <div>Your question</div>
+        <textarea name="text" style="width: 100%;"></textarea>
+    </div>
     <input type="submit" value="Submit" />
 </form>

@@ -1,8 +1,8 @@
 ---
 layout: speaker
-title: Klangio
-name: Klangio
-affiliation: 
+title: Sebastian Murgul
+name: Sebastian Murgul
+affiliation: CEO at Klangio
 role: speaker
 website: https://klang.io/
 photo: people/klangio.png
