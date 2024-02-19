@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: CyberRäuber
-name: CyberRäuber
+name: Marcel Karnapke und Björn Lengers
 role: speaker
 website: http://wp11159761.server-he.de/vtheater/en/home-2/
 photo: people/cyberrauber.jpg
