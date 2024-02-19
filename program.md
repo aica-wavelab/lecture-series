@@ -15,7 +15,7 @@ nav_order: 3
 
 | Speaker | Talk | Date | Submit your questions |
 |:--------|:------|:-----|:-------------------|
-{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/speakers/{{ speaker.slug }}){: .btn } |
+{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/lecture-series/speakers/{{ speaker.slug }}){: .btn } |
 {% endfor %}
 
 
@@ -25,7 +25,7 @@ nav_order: 3
 
 | Speaker | Talk | Date | Submit your questions |
 |:--------|:------|:-----|:-------------------|
-{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/speakers/{{ speaker.slug }}){: .btn } |
+{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/lecture-series/speakers/{{ speaker.slug }}){: .btn } |
 {% endfor %}
 
 
@@ -36,6 +36,6 @@ nav_order: 3
 
 | Speaker | Talk | Date | Submit your questions |
 |:--------|:------|:-----|:-------------------|
-{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/speakers/{{ speaker.slug }}){: .btn } |
+{% for speaker in sorted_speakers %}| {{speaker.academic_title}} {{ speaker.name }} | {{ speaker.talk }} | {{speaker.talk_date | date: "%B %d, %Y"}} at {{ speaker.talk_date | date: "%H:%M" }} |[Questions](/lecture-series/speakers/{{ speaker.slug }}){: .btn } |
 {% endfor %}
 
