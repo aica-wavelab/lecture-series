@@ -9,17 +9,12 @@
     {%- endif -%}
 
     <div class="article-comment" id="c{{- cid -}}">
-        <div class="article-comment-avatar">
-            <img src="https://www.gravatar.com/avatar/{{ include.email | downcase | md5 }}?d=mp" />
-        </div>
         <div class="article-comment-content">
-            <div>{{ com.text | escape | newline_to_br | strip_newlines | markdownify | replace: "&amp;#39;", "'" | replace: "&amp;quot;", '"' }}</div>
-            <span class="article-comment-footer">by {{ com.author | escape | strip_newlines }}&nbsp;|&nbsp;</span>
-            <details>
-                <summary class="article-comment-footer">Reply</summary>
-                {%- include comment-form.html reply_to=cid -%}
-            </details>
+            <h3><i>{{ com.text | escape | newline_to_br | strip_newlines | markdownify | replace: "&amp;#39;", "'" | replace: "&amp;quot;", '"' }}</i></h3>
+            <div class="article-comment-footer">by {{ com.author | escape | strip_newlines }}&nbsp;&nbsp;</div><br>
+
             {%- include comments.html replies_to=cid -%}
+            <br>
         </div>
     </div>
 {%- endfor -%}

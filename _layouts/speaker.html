@@ -48,9 +48,11 @@ layout: page
 
 <div style="width: 100%;">
     <h2> Ask your questions to {{speaker.name}}! </h2>
-        {% include comments.html replies_to=page.url %}
-        {% include comment-form.html reply_to=page.url %}
+    {% include comments.html replies_to=page.url %}
+    {% include comment-form.html reply_to=page.url %}   
 </div>  
+        
+
 
 <style>
     .article-comment {
