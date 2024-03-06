@@ -69,24 +69,14 @@ You can earn **2 ECTS** for the validation of the course if you meet the followi
 - **Participation to the discussion**: Speaking up during the discussion will also be taken into account for validation. You can ask out loud a question you previously submitted.
 - **A 1-page summary of the speaker's lecture of your choice**: You can choose any lecture you attended and write a 1-page summary of the talk using [the following template](). The summary should include the main point of the talk, and eventually, a critical perspective on the topic. The summary should be written in English, and submitted as a PDF file on [the following link]().
 
-### Other students at University of Music and Performing Arts Munich (HMTM)
+### Other students at Hochschule München University of Applied Sciences (HM) 
 You can earn **2 ECTS** for the validation of the course if you meet the following criteria:
 - **Attendance**: You are required to attend a minimum of 8 lectures + 3 lectures of your choice from the [``Design im Zeughaus'' lecture serie](https://designimzeughaus.hm.edu/). You will be required to submit a proof of attendance.
 - - **Contribution to the pool of questions**: For each lecture you attend, you must submit at least one question to the pool, either before or during the talk. *Your questions must be highly relevant to the speaker*, which means you should research the speaker's work beforehand. Detailed instructions for submitting questions can be found in the [Ask a question](#ask-a-question) section.
 - **Participation to the discussion**: Speaking up during the discussion will also be taken into account for validation. You can ask out loud a question you previously submitted.
 - **A 1-page summary of the speaker's lecture of your choice**: You can choose any lecture you attended and write a 1-page summary of the talk using [the following template](). The summary should include the main point of the talk, and eventually, a critical perspective on the topic. The summary should be written in English, and submitted as a PDF file on [the following link]().
 
-
-### Hochschule München University of Applied Sciences (HM) 
-You will earn **2 ECTS** for the validation of the course.
-
-The evaluation criteria include:
-- **Attendance**: You are required to attend a minimum of 10 lectures
-- **Contribution to the pool of questions**: For each lecture you attend, you must submit at least one question to the pool, either before or during the talk. *Your questions must be highly relevant to the speaker*, which means you should research the speaker's work beforehand. Detailed instructions for submitting questions can be found in the [Ask a question](#ask-a-question) section.
-- **Participation to the discussion**: Speaking up during the discussion will also be taken into account for validation. You can ask out loud a question you previously submitted.
-- **A 1-page summary of the speaker's lecture of your choice**: You can choose any lecture you attended and write a 1-page summary of the talk using [the following template](). The summary should include the main point of the talk, and eventually, a critical perspective on the topic. The summary should be written in English, and submitted as a PDF file on [the following link]().
-
-### University of Music and Performing Arts Munich (HMTM)
+### Students from University of Music and Performing Arts Munich (HMTM)
 You will earn **1 ECTS** for the validation of the course.
 
 The evaluation criteria include:
