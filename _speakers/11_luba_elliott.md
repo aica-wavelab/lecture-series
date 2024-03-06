@@ -6,7 +6,7 @@ affiliation:
 role: speaker
 website: https://elluba.com/
 photo: people/luba_elliott.jpg
-talk:AI Art: "The popularity of AI art has exploded over the past few years. From its beginnings with DeepDream and style transfer to GANs and DALL·E, AI art has long moved beyond technology circles into the public eye, straddling the worlds of media art, contemporary art and NFTs. The contemporary art world's fascination with the social impact of technologies such as facial recognition, recommendation systems and deep fakes has encouraged artists to explore AI critically as subject matter, while NFTs and text-to-image models have shifted the focus back to aesthetics. This talk will give an overview of how artists and technologists are using and thinking about machine learning, its creative potential and societal impact."
+talk: "The popularity of AI art has exploded over the past few years. From its beginnings with DeepDream and style transfer to GANs and DALL·E, AI art has long moved beyond technology circles into the public eye, straddling the worlds of media art, contemporary art and NFTs. The contemporary art world's fascination with the social impact of technologies such as facial recognition, recommendation systems and deep fakes has encouraged artists to explore AI critically as subject matter, while NFTs and text-to-image models have shifted the focus back to aesthetics. This talk will give an overview of how artists and technologists are using and thinking about machine learning, its creative potential and societal impact."
 talk_description: "AI Art: From 2015 till now"
 bloc: AI in cultural and creative industries
 talk_date: 2024-06-26 17:00 +0100
