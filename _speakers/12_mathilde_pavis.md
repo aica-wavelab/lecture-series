@@ -1,9 +1,10 @@
 ---
 layout: speaker
-title: To be announced
-name: To be announced
+title: Mathilde Pavis
+name: Mathilde Pavis
+academic_title: Dr.
 role: speaker
-website: 
+website: https://www.mathildepavis.com/
 talk: Title of the talk to be announced
 talk_description: "Talk description is coming soon..."
 bloc: AI in cultural and creative industries

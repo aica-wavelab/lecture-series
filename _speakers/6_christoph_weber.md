@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: To be announced
-name: To be announced
+name: Christoph Weber
 role: speaker
 website: 
 talk: Title of the talk to be announced
