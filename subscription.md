@@ -40,7 +40,7 @@ It is meant to gather all institutional emails, submit and collect assigments, a
 
 <div class="column">
     <img src="{{ '/assets/images/logos/moodle_logo.png' | relative_url }}" alt="HM logo">
-        <a href="https://moodle.hm.edu/course/view.php?id=21876" class="btn fs-5 mb-4 mb-md-0 mr-2" target="_blank">Sign up on Moodle</a>
+        <a href="https://moodle.hm.edu/course/view.php?id=22017" class="btn fs-5 mb-4 mb-md-0 mr-2" target="_blank">Sign up on Moodle</a>
   </div>
 
 NB: You can subscribe with and without HM credentials. Just select *DFN-AAI/eduGAIN* if you are not an HM student.
