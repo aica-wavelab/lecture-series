@@ -16,7 +16,7 @@ permalink: /
 15.01.2023 - Save the date! The weekly lecture series on AI in Culture and Arts is starting soon. First talk will take place on **Wednesday, April 10th, from 17:00 to 18:30**!
 
 <!-- A big zoom link button -->
-[Zoom link](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
+[Zoom link](https://zoom.us/j/91645028574?pwd=MWs2VjI1ZEx0NVpWb1FNbFNVOSszUT09){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 target="_blank"}
 
 ---
 
