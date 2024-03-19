@@ -3,7 +3,7 @@ layout: speaker
 title: Thor Magnusson
 name: Thor Magnusson
 academic_title: Prof.
-affiliation: Professor of future music in the Music Department at the University of Sussex
+affiliation: Professor at the University of Iceland and the Music Department at the University of Sussex
 role: speaker
 website: https://thormagnusson.github.io/
 photo: people/thor_magnusson.jpg
