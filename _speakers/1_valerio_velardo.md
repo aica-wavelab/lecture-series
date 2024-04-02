@@ -7,8 +7,8 @@ affiliation: Senior Data Scientist at Musimap
 role: speaker
 website: https://valeriovelardo.com/
 photo: people/valerio_velardo.jpg
-talk: The sound of AI
-talk_description: "Talk description is coming soon..."
+talk: "A Journey Through Generative Music AI"
+talk_description: "Generative music is a rapidly growing field that has garnered attention from researchers, creatives, and the music industry. This talk aims to provide a comprehensive overview of the history and current state of AI-generated music. It will highlight the most iconic systems that have been developed in the space, and delve into the challenges and limitations of generative music. The discussion will also look towards the future prospects of AI in the music industry, and consider how these developments may shape the creation and consumption of music in the coming years."
 bloc: AI in music
 talk_date: 2024-04-10 17:00 +0100
 links:
