@@ -20,6 +20,9 @@ layout: page
                 {%- if speaker.photo -%}
                 <img class="staffer-image" src="{{ site.baseurl }}/assets/images/{{ page.photo }}" alt="" style="max-width: 90%; height: 150px;">
                 {%- endif -%}
+                {%- if speaker.credits_photo -%}
+                <p style="font-size: smaller;">Photo by {{speaker.credits_photo}}</p>
+                {%- endif -%}
                 {%- if speaker.website -%}
                 <a href="{{ speaker.website }}" 
                     target="_blank" 
