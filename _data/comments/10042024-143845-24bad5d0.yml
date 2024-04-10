@@ -1,0 +1,5 @@
+reply_to: /speakers/1_valerio_velardo/
+author: Benedikt Zönnchen
+email: zoennchen.benedikt@hm.edu
+text: |
+ There is the field of Physics Informed Neural Networks (PINN). Do you think something similar is possible for symbolic music generation, i.e. to integrate music theory into the objective function that is being optimized (as far as I know PINN deals only with regression and not with classification).
