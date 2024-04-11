@@ -56,12 +56,13 @@ def update_question_status(conn : sqlite3.Connection, filename : str, status : Q
   conn.commit()
 
 class Question:
-    def __init__(self, filename, author, text, reply_to, status=QuestionStatus.NEW):
+    def __init__(self, filename, author, text, reply_to, status=QuestionStatus.NEW, timestamp=None):
         self.filename = filename
         self.author = author
         self.text = text
         self.reply_to = reply_to
         self.status = status
+        self.timestamp = timestamp
 
 questions = []
 
@@ -77,12 +78,14 @@ def load_comments(data_dir: str, conn: sqlite3.Connection) -> None:
                 cursor.execute("SELECT status FROM questions WHERE filename = ?", (filename,))
                 db_status = cursor.fetchone()
                 status = QuestionStatus(db_status[0]) if db_status else QuestionStatus.NEW
+                timestamp = data.get('timestamp')
                 questions.append(Question(
                     filename,
                     data.get('author'),
                     data.get('text'),
                     data.get('reply_to'),
                     status,
+                    timestamp,
                 ))
 
 def get_new_question() -> Question:
@@ -93,7 +96,18 @@ def get_new_question() -> Question:
 
 def decline_question(conn : sqlite3.Connection, question : Question) -> None:
     question.status = QuestionStatus.DECLINED
+    reason = input("\x1b[31mReason for declining ? \x1b[0m:")
+    question.reason = reason
     update_question_status(conn, question.filename, question.status)
+
+    # Update YAML file with reason (optional)
+    filepath = os.path.join(comments_dir, question.filename)
+    with open(filepath, 'r') as f:
+        data = yaml.safe_load(f)
+    data['declined_reason'] = reason  # Add reason to YAML data
+    with open(filepath, 'w') as f:
+        yaml.dump(data, f)
+
      # Move file to declined directory (optional)
     os.rename(f"{comments_dir}/{question.filename}", f"{declined_comments_dir}/{question.filename}")
 
@@ -102,7 +116,7 @@ def accept_question(conn : sqlite3.Connection, question : Question) -> None:
     update_question_status(conn, question.filename, question.status)
 
 def print_question(question : Question) -> None:
-    print(f"\x1b[33m{question.author}\x1b[0m submitted a question to \x1b[33m{question.reply_to}\x1b[0m:")
+    print(f"\x1b[33m{question.author}\x1b[0m submitted a question to \x1b[33m{question.reply_to}\x1b[0m on \x1b[33m{question.timestamp}\x1b[0m:")
     # Print question in light blue
     print(f"\x1b[36m{question.text}\x1b[0m")
 
