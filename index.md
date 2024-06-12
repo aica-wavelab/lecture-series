@@ -13,6 +13,7 @@ permalink: /
 ## 📰 Announcements
 {: .no_toc }
 
+12.06.2024 - Today's talk is canceled! We apologize for the inconvenience. The next talk will take place on **Wednesday, June 19th** with Sonja Thiel.
 15.01.2023 - Save the date! The weekly lecture series on AI in Culture and Arts is starting soon. First talk will take place on **Wednesday, April 10th, from 17:00 to 18:30**!
 
 <!-- A big zoom link button -->
